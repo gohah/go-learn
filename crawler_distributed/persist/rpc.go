@@ -3,8 +3,8 @@ package persist
 import (
 	"log"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/persist"
+	"github.com/gohah/go-learn/crawler/engine"
+	"github.com/gohah/go-learn/crawler/persist"
 	"github.com/olivere/elastic"
 )
 

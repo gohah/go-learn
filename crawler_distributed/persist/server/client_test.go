@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/model"
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
+	"github.com/gohah/go-learn/crawler/engine"
+	"github.com/gohah/go-learn/crawler/model"
+	"github.com/gohah/go-learn/crawler_distributed/config"
+	"github.com/gohah/go-learn/crawler_distributed/rpcsupport"
 )
 
 func TestItemSaver(t *testing.T) {

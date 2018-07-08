@@ -1,7 +1,7 @@
 package engine
 
 import "log"
-import "github.com/guopuke/learngo/crawler/fetcher"
+import "github.com/gohah/go-learn/crawler/fetcher"
 
 func Worker(r Request) (ParseResult, error) {
 	log.Printf("Fetching %s", r.Url)

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/guopuke/learngo/queue"
+	"github.com/gohah/go-learn/queue"
 )
 
 func main() {

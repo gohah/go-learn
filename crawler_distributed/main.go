@@ -5,13 +5,13 @@ import (
 	"log"
 	"net/rpc"
 
-	"github.com/guopuke/learngo/crawler/engine"
-	"github.com/guopuke/learngo/crawler/scheduler"
-	"github.com/guopuke/learngo/crawler/zhenai/parser"
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	itemsaver "github.com/guopuke/learngo/crawler_distributed/persist/client"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
-	worker "github.com/guopuke/learngo/crawler_distributed/worker/client"
+	"github.com/gohah/go-learn/crawler/engine"
+	"github.com/gohah/go-learn/crawler/scheduler"
+	"github.com/gohah/go-learn/crawler/zhenai/parser"
+	"github.com/gohah/go-learn/crawler_distributed/config"
+	itemsaver "github.com/gohah/go-learn/crawler_distributed/persist/client"
+	"github.com/gohah/go-learn/crawler_distributed/rpcsupport"
+	worker "github.com/gohah/go-learn/crawler_distributed/worker/client"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/guopuke/learngo/tree"
+	"github.com/gohah/go-learn/tree"
 )
 
 // 一个包的方法可以分别放在多个文件内

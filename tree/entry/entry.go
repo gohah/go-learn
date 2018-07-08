@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/guopuke/learngo/tree"
+	"github.com/gohah/go-learn/tree"
 )
 
 // 扩展已有类型-组合形式

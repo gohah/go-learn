@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/rpc/jsonrpc"
 
-	"github.com/guopuke/learngo/rpc"
+	"github.com/gohah/go-learn/rpc"
 )
 
 func main() {

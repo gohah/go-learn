@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/guopuke/learngo/crawler_distributed/config"
-	"github.com/guopuke/learngo/crawler_distributed/persist"
-	"github.com/guopuke/learngo/crawler_distributed/rpcsupport"
+	"github.com/gohah/go-learn/crawler_distributed/config"
+	"github.com/gohah/go-learn/crawler_distributed/persist"
+	"github.com/gohah/go-learn/crawler_distributed/rpcsupport"
 	"github.com/olivere/elastic"
 )
 
